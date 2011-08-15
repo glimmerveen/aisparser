@@ -1,16 +1,18 @@
 package com.aisparser;
 
 import junit.framework.TestCase;
+import org.junit.Ignore;
 
-public class Message22Test extends TestCase {
+@Ignore("Not yet implemented")
+public class Message23Test extends TestCase {
 
 	Vdm vdm_message;
-	Message22 msg;
+	Message23 msg;
 	int result;
 
 	public void testParse() {
 		vdm_message = new Vdm();
-		msg = new Message22();
+		msg = new Message23();
 
 		fail("Not implemented - need test data");
 		
@@ -23,7 +25,7 @@ public class Message22Test extends TestCase {
 			fail(e.getMessage());
 		}
 
-		assertEquals( "msgid", 22, msg.msgid());
+		assertEquals( "msgid", 23, msg.msgid());
 		assertEquals( "repeat", 0, msg.repeat());
 		assertEquals( "userid", 0, msg.userid());
 
