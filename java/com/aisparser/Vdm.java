@@ -138,7 +138,12 @@ public class Vdm {
 	        this.six_state = new Sixbit();
 	        this.six_state.init("");
 		}
-		this.channel = fields[4].charAt(0);
+    // If the channel code is empty, store a 0.
+    if (fields[4].isEmpty()) {
+      this.channel = 0;
+    } else {
+		  this.channel = fields[4].charAt(0);
+    }
 		
 		this.six_state.add(fields[5]);
 		
