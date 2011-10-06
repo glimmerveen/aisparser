@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.aisparser</groupId>
 	<artifactId>aisparser</artifactId>
-	<version>1.9-awg</version>
+	<version>1.10-awg-SNAPSHOT</version>
 	<packaging>bundle</packaging>
 	<properties>
 		<junit.version>4.8.2</junit.version>
