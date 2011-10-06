@@ -36,6 +36,6 @@
 		</plugins>
 	</build>
 	<scm>
-		<developerConnection>scm:git:git://github.com/glimmerveen/aisparser.git</developerConnection>
+		<developerConnection>scm:git:git@github.com:glimmerveen/aisparser.git</developerConnection>
 	</scm>
 </project>
